@@ -13,12 +13,12 @@ export default class Board extends React.Component {
   
     handleClick(i) {
       const { squares, xIsNext } = this.state;
-      const squares1 = squares.slice();
-      if (this.calculateWinner(squares) || squares1[i]) {
+      const clickedSquare = squares.slice();
+      if (this.calculateWinner(squares) || clickedSquare[i]) {
         return;
       }
-      squares1[i] = xIsNext ? "X" : "O";
-      this.setState({ squares: squares1, xIsNext: !xIsNext });
+      clickedSquare[i] = xIsNext ? "X" : "O";
+      this.setState({ squares: clickedSquare, xIsNext: !xIsNext });
     }
   
     handleReset() {
@@ -47,14 +47,7 @@ export default class Board extends React.Component {
   
     render() {
       const { squares, xIsNext } = this.state;
-      const winner = this.calculateWinner(squares);
-      let status;
-      if (winner) {
-        status = "Winner: " + winner;
-      } else {
-        status = "Next player: " + (this.state.xIsNext ? "X" : "O");
-      }
-  
+      const winner = this.calculateWinner(squares);  
       return (
         <div  className="container">
           <div className="instructions">
