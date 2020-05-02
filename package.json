@@ -1,8 +1,8 @@
 {
-  "name": "tic-tac-toe",
+  "name": "playtictactoe",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://kbps1991.github.io/playtictactoe/",
+  "homepage": "https://kbps1991.github.io/playtictactoe/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -17,8 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
