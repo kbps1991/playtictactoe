@@ -51,7 +51,7 @@ export default class Board extends React.Component {
       return (
         <div  className="container">
           <div className="instructions">
-            Next player: {this.state.xIsNext ? "X" : "O"}
+            Next player: {xIsNext ? "X" : "O"}
           </div>
           <div className="instructions">
             Winner:{winner ? winner : "None"}
