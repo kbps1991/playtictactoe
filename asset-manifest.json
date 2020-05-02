@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/playtictactoe/static/css/main.89bc5732.chunk.css",
+    "main.js": "/playtictactoe/static/js/main.a85b3fea.chunk.js",
+    "main.js.map": "/playtictactoe/static/js/main.a85b3fea.chunk.js.map",
+    "runtime-main.js": "/playtictactoe/static/js/runtime-main.929e5bbc.js",
+    "runtime-main.js.map": "/playtictactoe/static/js/runtime-main.929e5bbc.js.map",
+    "static/js/2.dd077de5.chunk.js": "/playtictactoe/static/js/2.dd077de5.chunk.js",
+    "static/js/2.dd077de5.chunk.js.map": "/playtictactoe/static/js/2.dd077de5.chunk.js.map",
+    "index.html": "/playtictactoe/index.html",
+    "precache-manifest.99c36162c9cdffbe9de1dd261afc4fc2.js": "/playtictactoe/precache-manifest.99c36162c9cdffbe9de1dd261afc4fc2.js",
+    "service-worker.js": "/playtictactoe/service-worker.js",
+    "static/css/main.89bc5732.chunk.css.map": "/playtictactoe/static/css/main.89bc5732.chunk.css.map",
+    "static/js/2.dd077de5.chunk.js.LICENSE.txt": "/playtictactoe/static/js/2.dd077de5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.929e5bbc.js",
+    "static/js/2.dd077de5.chunk.js",
+    "static/css/main.89bc5732.chunk.css",
+    "static/js/main.a85b3fea.chunk.js"
+  ]
+}
